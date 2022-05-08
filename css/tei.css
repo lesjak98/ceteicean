@@ -1,0 +1,17 @@
+
+tei-head {
+    text-align:center;
+    color:DarkBlue;
+    font-size: 170%;
+    text-align: center;
+}
+tei-sp {
+  display: block;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  text-align: center;
+  
+}
+tei-speaker {
+    font-style: italic;
+}

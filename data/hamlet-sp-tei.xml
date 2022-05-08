@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hamlet Ausschnitt</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Martina Scholger</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>LV X-Technologien vertieft, SS 2022</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <head>THE TRAGEDIE OF 
+               <lb/>HAMLET, Prince of Denmarke</head>
+            
+            <sp who="#F-ham-fra">
+               <speaker rend="italic">Fran.</speaker>
+               <l n="1">Nay answer me: Stand &amp; vnfold
+                  <lb/>your selfe.</l>
+            </sp>
+            <sp who="#F-ham-ber">
+               <speaker rend="italic">Bar.</speaker>
+               <l n="2">Long liue the King.</l>
+            </sp>
+            <sp who="#F-ham-fra">
+               <speaker rend="italic">Fran.</speaker>
+               <l n="3">
+                  <hi rend="italic">Barnardo</hi>?</l>
+            </sp>
+            <sp who="#F-ham-ber">
+               <speaker rend="italic">Bar.</speaker>
+               <l n="4">He.</l>
+            </sp>
+            <sp who="#F-ham-fra">
+               <speaker rend="italic">Fran.</speaker>
+               <l n="5">You come most carefully vpon your houre.</l>
+            </sp>
+            <sp who="#F-ham-ber">
+               <speaker rend="italic">Bar.</speaker>
+               <l n="6">'Tis now strook twelue, get thee to bed <hi rend="italic">Francisco.</hi>
+               </l>
+            </sp>
+            <sp who="#F-ham-fra">
+               <speaker rend="italic">Fran.</speaker>
+               <l n="7">For this releese much thankes: 'Tis bitter cold,</l>
+               <l n="8">And I am sicke at heart.</l>
+            </sp>
+            <sp who="#F-ham-ber">
+               <speaker rend="italic">Barn.</speaker>
+               <l n="9">Haue you had quiet Guard?</l>
+            </sp>
+            <sp who="#F-ham-fra">
+               <speaker rend="italic">Fran.</speaker>
+               <l n="10">Not a Mouse stirring.</l>
+            </sp>
+            <sp who="#F-ham-ber">
+               <speaker rend="italic">Barn.</speaker>
+               <l n="11">Well, goodnight. If you do meet <hi rend="italic">Horatio</hi> and</l>
+               <l n="12">
+                  <hi rend="italic">Marcellus</hi>, the Riuals of my Watch, bid them make hast.</l>
+            </sp>
+            
+         </div>
+      </body>
+  </text>
+</TEI>
